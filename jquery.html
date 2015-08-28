@@ -5,11 +5,16 @@
 		<title>Test</title>
 	</head>
 	<body>
-		<h1>Welcome to my Etch-A-Sketch</h1>
+		<h1>Welcome to my Etch-A-Sketch</h1>		
 		
-	<div id="container"></div>
-	
+		<div class="button">
+			<form>
+				<button onclick="return prompt('Are you sure you want to clear the Grid?')">Clear Grid</button>
+			</form>
+		</div>
 
+		<div id="container"></div>
+		
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 	<script src="js/jquery.js"></script>
 	</body>
