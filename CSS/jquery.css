@@ -1,12 +1,13 @@
 #container {
-    background-color: white;
+    background-color: black;
     height: 850px;
-    width: auto;
+    width: 850px;
+
 }
 .square {
     background-color: white;
-    height: 100px;
-    width: 100px;
+    height: 50px;
+    width: 50px;
     outline: 1px solid;
     margin: 1px;
     display: inline-block;
