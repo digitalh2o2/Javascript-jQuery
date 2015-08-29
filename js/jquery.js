@@ -9,6 +9,9 @@ $(document).ready(function() {
 		$( ".square" ).on('mouseover',function() {
   				$(this).css('background-color', rndColor);
 			});
+        $('.square').on('mouseleave', function() {
+                $(this).css('background-color', 'purple');
+            });
             
         
         }
